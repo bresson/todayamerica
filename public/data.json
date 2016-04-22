@@ -1,0 +1,65 @@
+[{
+    "title": "TOTAL SPENDING ON HEALTH",
+    "subtitle": "PER CAPITA IN USD",
+    "bars": [
+        {
+            "title": "1. USA",
+            "detail": "$8,362"
+        }, {
+            "title": "2. LUXEMBOURG",
+            "detail": "$6,743"
+        }, {
+            "title": "3. MONACO",
+            "detail": "$5,949"
+        }, {
+            "title": "4. NORWAY",
+            "detail": "$5,426"
+        }, {
+            "title": "5. SWITZERLAND",
+            "detail": "$5,394"
+        }
+    ]
+}, {
+    "title": "INFANT MORTALITY RATE",
+    "subtitle": "DEATHS PER 1,000 LIVE BIRTHS",
+    "bars": [
+        {
+            "title": "1. Finland",
+            "detail": "2.15"
+        }, {
+            "title": "2. Japan",
+            "detail": "1.15"
+        }, {
+            "title": "3. Portugal",
+            "detail": "2.15"
+        }, {
+            "title": "4. Sweden",
+            "detail": "$5,426"
+        }, {
+            "title": "27 USA",
+            "detail": "$5,394"
+        }
+    ]
+}, {
+    "title": "INCARCERATION RATES",
+    "subtitle": "PER 100,000",
+    "bars": [
+        {
+            "title": "USA",
+            "detail": "698"
+        }, {
+            "title": "England & Wales",
+            "detail": "148"
+        }, {
+            "title": "Canada",
+            "detail": "106"
+        }, {
+            "title": "France",
+            "detail": "100"
+        }, {
+            "title": "Germany",
+            "detail": "78"
+        }
+    ]
+}
+]

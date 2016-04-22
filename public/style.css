@@ -1,0 +1,246 @@
+/*--- color for the background of the entire body ---*/
+.bigBox{
+  background-color:#e9e9e9;
+}
+
+/*--- title and subtitle of the page with the blue background ---*/
+.titleBox {
+  height:382px;
+  /*    height:60vmin;*/
+  background-color:#147FD7;
+  position:relative;
+  transition: height 1.2s;
+  -webkit-transition: height 1.2s;
+  -moz-transition: height 1.2s;
+  -o-transition: height 1.2s;
+}
+#title{
+  font-family:'Neuton' ,Helvetica;
+  font-weight:700 !important;
+  font-size:7.22vmin;
+  /* font-size:69px;*/
+  color:#FFFFFF;
+  text-align:center;
+  padding:93px 0px 20px 0px;
+  margin:0;
+  transition:padding 1.2s;
+  -webkit-transition: padding 1.2s;
+  -moz-transition: padding 1.2s;
+  -o-transition: padding 1.2s;
+}
+
+#subtitle{
+  font-family:'Roboto',medium ,Helvetica;
+  font-weight:500 !important;
+  font-size:18px;
+  font-size:2.2vmin ;
+  color:#FFFFFF;
+  text-align:center;
+  margin:0;
+  padding:0;
+}
+
+/*--- centered container for the cards ---*/
+.cardBox{
+  max-width:1110px;
+  text-align:center;
+  margin-top:-60px;
+  margin-left:auto;
+  margin-right:auto;
+  transition:margin-top 1.2s;
+  -webkit-transition: margin-top 1.2s;
+  -moz-transition: margin-top 1.2s;
+  -o-transition: margin-top 1.2s;
+}
+
+/*========= general css for the cards =========*/
+.graph, .graphRed, .graphText {
+  width:360px;
+  height:360px;
+  display:inline-block;
+  vertical-align:top;
+  background-color:#FAFAFA;
+  font-family:'Roboto',medium, Helvetica;
+  font-size:18px;
+  text-align:left;
+  color:#252525;
+  margin:5.5px 4px;
+  position:relative;
+  /* margin-top:10px;*/
+  box-shadow:0px 2px 2px 0px #c1c1c1;
+  /*-webkit-box-shadow:0px 2px 2px 0px black;
+  //    -moz-box-shadow:0px 2px 2px 0px black;*/
+}
+
+.graphTitle{
+  font-family:'Roboto';
+  font-weight:600;
+  margin:0;
+  margin-left:24px;
+  margin-top:24px;
+  padding:0;
+  box-sizing:content-box;
+  line-height:0.85;
+  margin-bottom:18px;
+}
+.graphSubtitle{
+  font-family:'Roboto';
+  font-weight:400;
+  font-size:12px !important;
+  margin:0;
+  padding:0;
+  padding-top:3px !important;
+  box-sizing:content-box;
+  opacity:0.6;
+}
+
+/*--- extra css specific for the Red card and its content ---*/
+.graphRed{
+  background-color:#FF6161;
+  color:#FFFFFF;
+}
+.graphRed>.big{
+  font-size:95px;
+  font-family:'Neuton',regular, Helvetica;
+  text-align:center;
+  padding:0;
+/*   width:94px; */
+  height:60px;
+  line-height:30px;
+  margin-top:131px;
+  margin-bottom:0;
+  margin-left:auto;
+  margin-right:auto;
+}
+.graphRed>.small{
+  font-size:18px;
+  font-family:'Roboto',medium, Helvetica;
+  font-weight:500 !important;
+  text-align:center;
+  width:206px;
+  height:44px;
+  margin:0px 77.5px 106px 76.5px;
+  padding:14px 0px 0px 0px;
+}
+
+/*--- extra css specific for contents of the Text-only cards ---*/
+.graphText>.big{
+  font-family:'Neuton',bold, Helvetica;
+  font-size:36px;
+  font-weight:800 !important;
+  line-height:1;
+  width:310;
+  height:222px;
+  margin:12px 24px 126px 24px ;
+/*   margin-top:12px;
+  margin-left:24px;
+  margin-right:auto; */
+/*   margin-left:auto; */
+}
+
+.chartTitle{
+  font-size:18px;
+  color:#252525;
+  margin:0;
+  font-weight:bold;
+}
+
+/*========= css for the Social bar and its content =========*/
+.social{
+  font-size:12px;
+  position:absolute;
+  width:359px;
+  height:48px;
+  bottom:0;
+  border-top:1px solid #979797;
+}
+.source{
+  margin:11px 0px 18px 24px;
+  padding-top:5px;
+  padding-right:1px;
+  font-size:12px;
+  font-family:'Roboto',regular, Helvetica;
+  font-weight:400;
+  color:#252525;
+  display:inline-block;
+  opacity:0.79;
+  /*vertical-align:middle;*/
+}
+.sourceLink{
+  font-size:12px;
+  font-family:'Roboto';
+  font-style:italic;
+  color:#4A90E2;
+  /*vertical-align:middle;*/
+  padding:0;
+  margin:16px 0px 18px 0px;
+  display:inline-block;
+  text-decoration:none;
+}
+.category{
+  float:right;
+  margin:17px 0px 17px 0px;
+  font-family:'Roboto';
+  font-weight:400;
+  color:#000000;
+  display:inline-block;
+  vertical-align:middle;
+  opacity:0.7;
+}
+.socialBtn{
+  float:right;
+  height:16.7px;
+  width:15px;
+  margin:15.7px 16.7px 15.7px 13px;
+  display:inline-block;
+  vertical-align:middle;
+}
+/*---extra css specific for the Social bar of the Red cards---*/
+.socialRed{
+  border-top:1px solid #FF6161;
+}
+.sourceRed, .sourceLinkRed, .categoryRed{
+  color:#FFFFFF;
+}
+.categoryRed{
+  opacity:0.9;
+}
+
+.bar{
+  background-color:#D9D8D8;
+  height:10px;
+  width:312px;
+  margin:0;
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:6px;
+}
+.barTitle {
+  display:inline-block;
+  font-size:18px;
+  font-family:'Roboto';
+  font-weight:600;
+  margin:0;
+  margin-left:24px;
+  padding:0;
+}
+.barDetail{
+  display:inline-block;
+  font-family:'Roboto';
+  font-weight:500;
+  font-size:12px;
+  margin:0;
+  margin-left:5px;
+  padding:0;
+  opacity:0.69;
+}
+
+.halfText{
+  font-family:'Neuton',bold, Helvetica;
+  font-size:36px;
+  font-weight:800 !important;
+  line-height:1;
+  width:310;
+  height:185px;
+  margin:12px 24px 0px 24px ;
+}
